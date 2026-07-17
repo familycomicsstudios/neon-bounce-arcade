@@ -1,6 +1,7 @@
 {
 "name": "Neon Bounce Arcade",
 "short_name": "NB Arcade",
+"id": "com.themadpunter.neonbouncearcade",
 "start_url": "/Neon%20Bounce%20Arcade.html",
 "display": "fullscreen",
 "description": "Launch balls into other balls for points.",

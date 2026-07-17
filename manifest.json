@@ -19,23 +19,29 @@
 "icons": [
     {
         "src": "icon.png",
-        "sizes": "192x192",
+        "sizes": "1078x1078",
         "type": "image/png",
         "purpose": "any"
     },
     {
         "src": "icon.png",
-        "sizes": "192x192",
+        "sizes": "1078x1078",
         "type": "image/png",
         "purpose": "maskable"
     }
 ],
 "screenshots": [
     {
-        "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
-        "sizes": "2880x1800",
+        "src": "screenshots/screenshot1.png",
+        "sizes": "640x360",
         "type": "image/png",
         "description": "A screenshot of the home page"
+    },
+    {
+        "src": "screenshots/screenshot2.png",
+        "sizes": "640x360",
+        "type": "image/png",
+        "description": "A screenshot of the game in action"
     }
 ],
 "shortcuts": [

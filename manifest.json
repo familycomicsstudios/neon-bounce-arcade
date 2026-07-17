@@ -9,19 +9,25 @@
 "theme_color": "#000000",
 "background_color": "#000000",
 "orientation": "landscape",
-"display_override": ["fullscreen", "standalone"],
+"display_override": "fullscreen",
+"protocol_handlers": [
+    {
+        "protocol": "web+neonbouncearcade",
+        "url": "/Neon%20Bounce%20Arcade.html?url=%s"
+    }
+],
 "icons": [
     {
-        "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "maskable"
-    },
-    {
-        "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
+        "src": "icon.png",
         "sizes": "192x192",
         "type": "image/png",
         "purpose": "any"
+    },
+    {
+        "src": "icon.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
     }
 ],
 "screenshots": [

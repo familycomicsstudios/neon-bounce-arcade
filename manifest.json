@@ -1,0 +1,51 @@
+{
+"name": "Neon Bounce Arcade",
+"short_name": "NB Arcade",
+"start_url": "/Neon%20Bounce%20Arcade.html",
+"display": "fullscreen",
+"description": "Launch balls into other balls for points.",
+"lang": "en-US",
+"dir": "ltr",
+"theme_color": "#000000",
+"background_color": "#000000",
+"orientation": "landscape",
+"display_override": ["fullscreen", "standalone"],
+"icons": [
+    {
+        "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+    },
+    {
+        "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+    }
+],
+"screenshots": [
+    {
+        "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+        "sizes": "2880x1800",
+        "type": "image/png",
+        "description": "A screenshot of the home page"
+    }
+],
+"shortcuts": [
+    {
+        "name": "Play Game",
+        "short_name": "Play",
+        "description": "Launch the Neon Bounce Arcade game",
+        "url": "/Neon%20Bounce%20Arcade.html",
+        "icons": [
+            {
+                "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
+                "sizes": "192x192",
+                "type": "image/png"
+            }
+        ]
+    }
+],
+"prefer_related_applications": false
+}
